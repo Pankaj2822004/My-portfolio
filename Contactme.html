@@ -27,25 +27,6 @@ body {
   font-family: "Hedvig Letters Sans", sans-serif;
   width: 98%;
 }
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 66px;
-  margin: 1px -25px 3px 1px;
-  background-color: rgb(49, 46, 48);
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-}
-
-nav ul li {
-  /* //to remove bullets list style */
-  list-style: none;
-  margin: 0px 24px;
-}
 
 ul li a {
   text-decoration: none;
@@ -57,15 +38,36 @@ ul li a {
 ul li a:hover {
 
   color: rgb(247, 202, 6);
-  font-size: 1.12rem;
+  /* font-size: 1.12rem; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 56px;
+  margin: 1px -25px 3px 1px;
+  background-color: rgb(49, 46, 48);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 1px -66px;
+}
+
+nav ul li {
+  /* //to remove bullets list style */
+  list-style: none;
+  margin: 0px 24px;
 }
 
 .left {
   /* font-family: 'Roboto', sans-serif; */
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   color: rgb(243, 3, 123);
   padding: 66px 3px;
-  margin: 11px 308px 3px -141px;
+  margin: 1px -114px 3px -141px;
   /* font-family: 'Hedvig Letters Sans', sans-serif; */
   font-family: "Roboto", sans-serif;
   /* font-family: 'Shadows Into Light', cursive; */
@@ -75,8 +77,8 @@ ul li a:hover {
   height: 50px;
   border-radius: 50%;
   margin: -21px -68px;
-  border: 2ps solid purple;
 }
+
 
 
 
@@ -88,7 +90,7 @@ ul li a:hover {
 
       .container {
         max-width: 600px;
-        margin: 64px 60px;
+        margin: 141px 454px;
         padding: 20px;
         background-color: #fff;
         border-radius: 8px;
@@ -131,31 +133,32 @@ ul li a:hover {
       }
 
 
-      .resume {
+ 
+.resume {
   text-decoration: none;
   margin: -6px -66px -9px 20px;
   padding: -42px 48px;
-  font-size: 25px;
+  font-size: 20px;
   border: 4px solid rgb(224, 213, 209);
   border-radius: 28px;
-  width: 226px;
+  width: 153px;
   cursor: pointer;
-background-color: rgb(214, 141, 46);
+  background-color: rgb(214, 141, 46);
 }
-.resume:hover{
+.resume:hover {
   background-color: chartreuse;
   border: 4px solid rgb(243, 207, 0);
 }
-.resume a{
+.resume a {
   text-decoration: none;
 }
 
- 
+
 
 
   .container2 {
     max-width: 610px;
-    margin: 185px 591px;
+    margin: 141px 454px;
     padding: 20px;
     background-color: #29c944;
     border-radius: 31px;
@@ -219,6 +222,11 @@ cursor: pointer;
   height: 80px;
   border: 4px solid rgb(4, 240, 23);
   }
+  #pp{
+  /* background-color: yellow; */
+  background-color: #616133;
+  font-size: 1.8rem;
+}
     </style>
   </head>
   <body>
@@ -226,7 +234,7 @@ cursor: pointer;
         <nav>
 
             <div class="pic"><img src="https://static.vecteezy.com/system/resources/previews/013/869/390/non_2x/letter-pp-logo-pro-file-pro-pro-free-vector.jpg" alt="" srcset=""></div>
-            <div class="left">PankajPortfolio</div>
+            <div class="left">Pankaj<span id="pp">Portfolio</span></div>
             <div class="right">
                 <ul>
                   <li  ><a href="index.html" id="home-link" >Home</a></li>
@@ -263,11 +271,11 @@ cursor: pointer;
      
     
     
-    "/views/Contactme.html",
-    "/views/index.html" , 
-    "/views/About.html",
+    "Contactme.html",
+    "index.html" , 
+    "About.html",
      
-    "/views/Projects.html"  
+    "Projects.html"  
       
        
  ];
