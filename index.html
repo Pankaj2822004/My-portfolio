@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pankaj Portfolio</title>
+   
+</head>
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" media ="screen and (max-width: 1076px) " href="phone.css">
+<body>
+    <header>
+        <nav>
+
+            <div class="pic">
+                <img id="profilePic" src="https://static.vecteezy.com/system/resources/previews/013/869/390/non_2x/letter-pp-logo-pro-file-pro-pro-free-vector.jpg" alt="" srcset="">
+            
+                <div id="tooltip" class="tooltip"> <!-- Tooltip content -->
+                    <h3>Pankaj Pandey</h3>
+                    <p><span class="purple">Education:</span> Engineering in IT Branch currently in 4th semester</p>
+                    <p><span class="purple">Skill:</span> MERN stack developer ,  Video Editing , Content Creator</p>
+
+                </div>
+            </div>
+            <div class="left">Pankaj<span id="pp">Portfolio</span></div>
+            
+
+            <select name="skill" id="skills">
+                <option value="">Skills</option>
+                <option value="options" data-url="/views/Projects.html">MERN stack developer</option>
+
+                <!-- <option value="options" data-url="/project">Full stack developer</option> -->
+
+                <option value="cat" data-url="https://www.youtube.com/@PankajPandeyfacts7931">Video Editor</option>
+              </select>
+              
+    
+
+            <div class="right">
+                <ul>
+                    <li  ><a href="index.html" id="home-link" style="color: yellow;">Home</a></li>
+               
+                    <li><a href="About.html" id="About-link">About</a></li>
+                  
+                    <li><a href="Projects.html" id="project-link">Projects</a></li>
+               
+                    <li><a href="Contactme.html" id="contact-link">contact me</a></li>
+                    <button class="resume" href="resume.html"><a href="resume.html">Resume</a></button>
+                   
+                </ul>
+
+        </nav>
+
+    </header>
+    <main class="mains">
+       
+        
+  
+
+         <div class="gif"> 
+            <img src="./images/web.gif" alt="" srcset="">
+        </div> 
+        <div class="gif1"> 
+            <img src="./images/web.gif" alt="" srcset="">
+        </div> 
+        <div class="gif2"> 
+            <img src="./images/web.gif" alt="" srcset="">
+        </div> 
+        <section class="firstsection">
+            <div class="leftsection">HI, My Name is <span class="purple"> Pankaj</span>
+                <div> and i am Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+               <button class="btn"><a href="resume.html" id="bton">Download Resume</a></button>
+               <button class="btn"> <a href="https://github.com/Pankaj2822004" id="bton">Visit Github </a></button>
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="./images/ppic.jpeg" alt="" srcset="">
+            </div>
+            
+        </section>
+       
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey"> What I Have Done So Far</span>
+           <div class="text2">
+            <h1 class="text-grey2">Learning Experiance</h1>
+        </div>
+            <div class="box">
+                <div class="vertical">
+
+                    <img class="image-top" src="./images/dp1.JPEG" alt="" srcset="">
+                    <div class="vertical-title">
+                        C++ DSA
+                    </div>
+                    <div class="vertical-des">
+                        I learnt many Programming languages like Java , python but my specialisation language  is C++ and javascript . i also solve almost 50 DSA questions in leetcode  
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./images//web.jpg" alt="" srcset="">
+                    <div class="vertical-title">
+                        MERN stack
+                    </div>
+                    <div class="vertical-des">
+                        i am Learning MERN stack since 1 Year . I made many Projects using HTML & CSS and some projects with Mongodb . and there are almost 3 projects using react 
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./images//web.jpg" alt="" srcset="">
+                    <div class="vertical-title">
+                        Video Editor
+                    </div>
+                    <div class="vertical-des">
+                        i am Learning Video Editing since 1 year . use use the software VN Editor  
+                    </div>
+
+                </div>
+
+        </section>
+        <a id="nextButton">
+            <img src="./images/next.png" alt="Description of the image">
+        </a>
+        <a id="prevButton" >
+            <img src="./images//back (1).png" alt="Description of the image">
+        </a>
+    </main>
+<footer class="footer">
+    <div class="footer-Area">
+        Copyright@www.pankajportfolio.com | All rights reserved    
+           
+        </div>
+    <div class="footer first">
+Pankaj Pandey Portfolio
+    </div>
+     <div class="footer second"> 
+<ul>
+    <li>Home</li>
+    <li>services</li>
+    <li>Contact</li>
+    <li>About </li>
+    
+</ul>
+    </div> 
+    <div class="footer third">
+        <ul>
+            <li>Home</li>
+            <li>services</li>
+            <li>Contact</li>
+            <li>About </li>
+            
+        </ul> 
+     </div> 
+     <div class="footer fourth">
+        <ul>
+            <li>Home</li>
+            <li>services</li>
+            <li>Contact</li>
+            <li>About </li>
+            
+        </ul>
+    </div> 
+   
+</footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+     
+    //  updateTyped();
+    window.onload = function() {
+updateTyped();
+};
+// Set up the interval to run the function every 5 seconds
+setInterval(updateTyped, 7000);
+
+function updateTyped() {
+    var typed = new Typed('#element', {
+        strings: ['MERN Stack developer', 'Video Editor', 'Full Stack developer'],
+        typeSpeed: 20,
+    });    
+}
+ 
+
+
+    
+    </script>
+
+<script>
+    // Define page URLs in the desired order
+    var pages = [
+        "/views/index.html",
+        "/views/About.html",
+        "/views/Contactme.html",
+        "/views/Projects.html"
+    ];
+
+    // Initialize current page index
+    var currentPageIndex = 0;
+
+    // Add event listeners for next and previous buttons
+    document.getElementById('nextButton').addEventListener('click', function() {
+        currentPageIndex = (currentPageIndex + 1) % pages.length;
+        navigateToPage(pages[currentPageIndex]);
+    });
+
+    document.getElementById('prevButton').addEventListener('click', function() {
+        currentPageIndex = (currentPageIndex - 1 + pages.length) % pages.length;
+        navigateToPage(pages[currentPageIndex]);
+    });
+
+    // Function to navigate to a page
+    function navigateToPage(pageUrl) {
+        window.location.href = pageUrl;
+    }
+</script>
+
+
+
+    <script>
+document.getElementById('skills').addEventListener('change', function() {
+  var selectedOption = this.options[this.selectedIndex];
+  var url = selectedOption.getAttribute('data-url');
+  if (url) {
+    window.location.href = url;
+  }
+});
+
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+</body>
+</html>
