@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Web Page</title>
+
+
+<link rel="stylesheet" href="About.css">
+</head>
+
+<body >
+    <header>
+        <nav>
+
+            <div class="pic"><img src="https://static.vecteezy.com/system/resources/previews/013/869/390/non_2x/letter-pp-logo-pro-file-pro-pro-free-vector.jpg" alt="" srcset=""></div>
+            <div class="left">PankajPortfolio</div>
+            <div class="right">
+                <ul>
+                    <li  ><a href="index.html" id="home-link" >Home</a></li>
+               
+                    <li><a href="About.html" id="About-link" style="color: yellow;">About</a></li>
+                  
+                    <li><a href="Projects.html" id="project-link">Projects</a></li>
+               
+                    <li><a href="Contactme.html" id="contact-link">contact me</a></li>
+                    <button class="resume" href="resume.html"><a href="resume.html">Resume</a></button>
+                </ul>
+
+        </nav>
+
+    </header>
+<h1>About me</h1>
+<div class="box">
+<p>My Name is Pankaj pandey and i am pursuing btech fron uit rgpv bhopal in the Information technology branch. Currently i am in the 2nd year. I have some Good skills may this Skills Will be helpful for your Company and also for me.  </p>
+<ul>
+    <li>MERN Stack Developer</li>
+    <li>C++ , javascript , Python , C++ with DSA</li>
+    <li>Social media Content Creator</li>
+    <li>Video Editing (VN editor)</li>
+</ul>
+
+
+</div>
+<a id="nextButton">
+    <img src="./images/next.png" alt="Description of the image">
+</a>
+<a id="prevButton" >
+    <img src="./images//back (1).png" alt="Description of the image">
+</a>
+    <footer>
+        <p>&copy; 2024 PankajPortfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+
+
+
+<script>
+    // Define page URLs in the desired order
+    var pages = [
+        // "/views/index.html",
+        "/views/About.html",
+        "/views/Projects.html" , 
+        "/views/Contactme.html",
+        "/views/index.html"
+    ];
+
+    // Initialize current page index
+    var currentPageIndex = 0;
+
+    // Add event listeners for next and previous buttons
+    document.getElementById('nextButton').addEventListener('click', function() {
+        currentPageIndex = (currentPageIndex + 1) % pages.length;
+        navigateToPage(pages[currentPageIndex]);
+    });
+
+    document.getElementById('prevButton').addEventListener('click', function() {
+        currentPageIndex = (currentPageIndex - 1 + pages.length) % pages.length;
+        navigateToPage(pages[currentPageIndex]);
+    });
+
+    // Function to navigate to a page
+    function navigateToPage(pageUrl) {
+        window.location.href = pageUrl;
+    }
+</script>
+</html>

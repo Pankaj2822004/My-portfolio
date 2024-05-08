@@ -1,0 +1,204 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./images/social-media-5187243_1920.png");
+  color: rgb(0, 0, 0);
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Abril Fatface", serif;
+  font-family: "Alumni Sans Collegiate One", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  width: 98%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 66px;
+  margin: 1px -25px 3px 1px;
+  background-color: rgb(49, 46, 48);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  /* //to remove bullets list style */
+  list-style: none;
+  margin: 0px 24px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(202 227 180);
+}
+
+ul li a:hover {
+  /* text-decoration: underline; */
+  color: rgb(247, 202, 6);
+  font-size: 1.12rem;
+}
+
+.left {
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 2.1rem;
+  color: rgb(243, 3, 123);
+  padding: 66px 3px;
+  margin: 11px 308px 3px -141px;
+  /* font-family: 'Hedvig Letters Sans', sans-serif; */
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.pic img {
+  height: 50px;
+  border-radius: 50%;
+  margin: -21px -68px;
+}
+
+
+#aboutLink{
+  color: rgb(247, 202, 6);
+ cursor: pointer;
+}   
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.box p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 25px 1px;
+}
+
+.box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.box ul li {
+  margin-bottom: 10px;
+}
+
+.box ul li:before {
+  content: "\2022";  /* Add bullet point */
+  color: #007bff;    /* Color of the bullet point */
+  font-weight: bold; /* Make bullet point bold */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+#nextButton img{
+  height: 70px;
+  border: 4px solid yellow;
+  border-radius: 56px;
+}
+#prevButton img{
+  height: 70px;
+  border: 4px solid yellow;
+  border-radius: 56px;
+}
+
+
+.resume {
+  text-decoration: none;
+  margin: -6px -66px -9px 20px;
+  padding: -42px 48px;
+  font-size: 25px;
+  border: 4px solid rgb(224, 213, 209);
+  border-radius: 28px;
+  width: 226px;
+  cursor: pointer;
+background-color: rgb(214, 141, 46);
+}
+.resume:hover{
+  background-color: chartreuse;
+  border: 4px solid rgb(243, 207, 0);
+}
+.resume a{
+  text-decoration: none;
+}
+
+
+
+#nextButton {
+  /* height: 70px; */
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  right: 10px; /* Adjust this value to your preference */
+  transform: translateY(-50%);
+}
+
+#prevButton {
+cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 10px; /* Adjust this value to your preference */
+  transform: translateY(-50%);
+}
+#nextButton img:hover{
+  height: 80px;
+  border: 4px solid rgb(4, 240, 23);;
+  
+}
+#prevButton img:hover{
+  height: 80px;
+  border: 4px solid rgb(4, 240, 23);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
