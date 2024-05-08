@@ -19,8 +19,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 66px;
-  margin: 1px -25px 3px 1px;
+  height: 56px;
+  margin: 1px -60px 3px 1px;
   background-color: rgb(49, 46, 48);
 }
 
@@ -37,10 +37,10 @@ nav ul li {
 
 .left {
   /* font-family: 'Roboto', sans-serif; */
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   color: rgb(243, 3, 123);
   padding: 66px 3px;
-  margin: 7px 91px 3px -141px;
+  margin: 1px -114px 3px -141px;
   /* font-family: 'Hedvig Letters Sans', sans-serif; */
   font-family: "Roboto", sans-serif;
   /* font-family: 'Shadows Into Light', cursive; */
@@ -49,7 +49,7 @@ nav ul li {
 .pic img {
   height: 50px;
   border-radius: 50%;
-  margin: -21px -68px;
+  margin: -22px -126px;
 }
 
 .firstsection {
@@ -67,8 +67,8 @@ nav ul li {
 
 .leftsection {
   /* background-color: red; */
-color: rgb(239 234 85);
-  font-size: 3.3rem;
+color: rgb(251 243 6);
+  font-size: 2.7rem;
   font-family: "Barlow Condensed", sans-serif;
   margin: 47px -35px;
   font-weight: 300;
@@ -85,19 +85,19 @@ color: rgb(239 234 85);
 
 .firstsection img {
   width: 60%;
-  height: 408px;
+  height: 343px;
 
   border: 4px solid rgb(21, 188, 230);
   border-radius: 533px;
-  margin: -88px 139px;
+  margin: -43px 139px;
 }
 .firstsection img:hover{
-  width: 60%;
-  height: 408px;
+  /* width: 60%;
+  height: 345px; */
 
   border: 4px solid rgb(30, 175, 25);
-  border-radius: 533px;
-  margin: -88px 139px;
+  /* border-radius: 533px;
+  margin: -43px 139px; */
 }
 
 .purple {
@@ -107,7 +107,7 @@ background-color: #ffc5fd;
 
 ul li a {
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   color: rgb(202 227 180);
 }
@@ -115,13 +115,13 @@ ul li a {
 ul li a:hover {
   /* text-decoration: underline; */
   color: rgb(247, 202, 6);
-  font-size: 1.12rem;
+  /* font-size: 1.12rem; */
 }
 
 #element {
   color: chocolate;
   background-color: #332626;
-  font-weight: bold;
+  font-weight: 100;
 }
 .secondsection {
   max-width: 80vw;
@@ -144,21 +144,20 @@ main hr {
 }
 .text-grey2{
   color: rgb(239 172 172);
-  margin: -1px 12px;
-  font-size: 2.5rem;
+  margin: -165px 12px;
+  font-size: 1.5rem;
  
 }
 .text2{
   background-color: #301d1d;
-  width: 500px;
+  width: 280px;
 }
 .secondsection .box {
   background-color: rgb(3, 3, 3);
   display: flex;
   width: 46vw;
   height: 2px;
-  margin: 220px 305px;
-}
+  margin: 382px 230px; }
 
 .image-top {
   height: 95px;
@@ -215,7 +214,7 @@ footer ul {
   border: 2px solid white;
   border-color: black;
   border-radius: 11px;
-  font-size: 26px;
+  font-size: 17px;
   cursor: pointer;
 }
 .leftsection .buttons {
@@ -272,6 +271,7 @@ select {
   height: 35px;
   width: 122px;
   border-radius: 30px;
+  margin: 48px -115px;
   background-color: darksalmon;
 }
 #nextButton img {
@@ -280,7 +280,7 @@ select {
   border-radius: 56px;
 }
 #prevButton img {
-  height: 70px;
+  height: 63px;
   border: 4px solid yellow;
   border-radius: 56px;
 }
@@ -351,10 +351,10 @@ select {
   text-decoration: none;
   margin: -6px -66px -9px 20px;
   padding: -42px 48px;
-  font-size: 25px;
+  font-size: 20px;
   border: 4px solid rgb(224, 213, 209);
   border-radius: 28px;
-  width: 226px;
+  width: 153px;
   cursor: pointer;
   background-color: rgb(214, 141, 46);
 }
@@ -373,4 +373,5 @@ select {
 #pp{
   /* background-color: yellow; */
   background-color: #616133;
+  font-size: 1.8rem;
 }
