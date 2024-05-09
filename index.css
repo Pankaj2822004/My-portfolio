@@ -6,8 +6,7 @@
 body {
   background-image: url("./images/computer-3174729.jpg");
   color: whitesmoke;
-  background-size: cover; /* This will make the background image cover the entire container */
-  background-position: center;
+ 
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Abril Fatface", serif;
   font-family: "Alumni Sans Collegiate One", sans-serif;
