@@ -21,7 +21,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 56px;
-  margin: 1px -60px 3px 1px;
+  margin: 7px -38px 3px 1px;
   background-color: rgb(49, 46, 48);
 }
 
@@ -50,7 +50,7 @@ nav ul li {
 .pic img {
   height: 50px;
   border-radius: 50%;
-  margin: -22px -126px;
+  margin: -10px -237px;
 }
 
 .firstsection {
