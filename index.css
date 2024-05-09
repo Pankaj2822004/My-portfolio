@@ -6,6 +6,7 @@
 body {
   background-image: url("./images/computer-3174729.jpg");
   color: whitesmoke;
+   overflow-x: hidden;
  background-size: cover; /* This will make the background image cover the entire container */
   background-position: center;
   /* font-family: 'Roboto', sans-serif; */
@@ -311,7 +312,8 @@ select {
 }
 
 .mains {
-  margin: 55px 15px;
+  max-width: 100%; /* Set maximum width to 100% of viewport */
+  margin: 0 auto; /* Center the content horizontally */
 }
 /* Positioning the tooltip */
 .tooltip {
