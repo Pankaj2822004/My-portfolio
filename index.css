@@ -21,7 +21,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 56px;
-  margin: 7px -38px 3px 1px;
+  margin: 1px -60px 3px 1px;
   background-color: rgb(49, 46, 48);
 }
 
@@ -41,7 +41,7 @@ nav ul li {
   font-size: 1.8rem;
   color: rgb(243, 3, 123);
   padding: 66px 3px;
-  margin: 1px -114px 3px -141px;
+  margin: 7px -38px 3px -141px;
   /* font-family: 'Hedvig Letters Sans', sans-serif; */
   font-family: "Roboto", sans-serif;
   /* font-family: 'Shadows Into Light', cursive; */
