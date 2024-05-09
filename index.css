@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background-image: url("./images/computer-3174729.jpg");
   color: whitesmoke;
-   overflow-x: hidden;
- background-size: cover; /* This will make the background image cover the entire container */
+  overflow-x: hidden;
+  background-size: cover; /* This will make the background image cover the entire container */
   background-position: center;
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Abril Fatface", serif;
@@ -23,6 +22,7 @@ nav {
   height: 56px;
   margin: 1px -60px 3px 1px;
   background-color: rgb(49, 46, 48);
+
 }
 
 nav ul {
@@ -35,13 +35,12 @@ nav ul li {
   list-style: none;
   margin: 0px 24px;
 }
-
 .left {
   /* font-family: 'Roboto', sans-serif; */
   font-size: 1.8rem;
   color: rgb(243, 3, 123);
   padding: 66px 3px;
-  margin: 7px -38px 3px -141px;
+  margin: 1px -114px 3px -141px;
   /* font-family: 'Hedvig Letters Sans', sans-serif; */
   font-family: "Roboto", sans-serif;
   /* font-family: 'Shadows Into Light', cursive; */
@@ -50,7 +49,7 @@ nav ul li {
 .pic img {
   height: 50px;
   border-radius: 50%;
-  margin: -10px -237px;
+  margin: -22px -126px;
 }
 
 .firstsection {
@@ -310,11 +309,14 @@ select {
   left: 10px; /* Adjust this value to your preference */
   transform: translateY(-50%);
 }
-
 .mains {
   max-width: 100%; /* Set maximum width to 100% of viewport */
   margin: 0 auto; /* Center the content horizontally */
 }
+/* 
+.mains {
+  margin: 55px 15px;
+} */
 /* Positioning the tooltip */
 .tooltip {
   /* cursor: pointer; */
